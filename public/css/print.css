@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff !important;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 14px;
+}
+table {
+    /* width: 100%; */
+    border-collapse: collapse;
+    table-layout: auto;
+}
+.table-wrap {
+    background-color: #fff !important;
+    width: 100%;
+}
+.table-header img{
+    width:100%;
+    max-width: 1000px;
+    height:auto
+}
+table,
+th,
+td {
+    /* border: 1px solid #ddd; */
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+.inner-table {
+    width: 100%;
+}
+.inner-table,
+.inner-table th,
+.inner-table td {
+    border: 1px solid #ddd;
+}
+.inner-table-wrap {
+    padding: 0;
+}
+.date-info,
+.date-info th,
+.date-info td {
+    border: 1px solid #000;
+}
+.date-info {
+    width: 100%;
+}
+.date-info tr td {
+    width: 50%;
+}
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    color: #000 !important;
+}
+p {
+    color: #000 !important;
+}
+th {
+    /* background-color: #f2f2f2; */
+}
+a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease-in-out;
+}
+a svg path {
+    transition: fill 0.3s ease-in-out;
+}
+a span {
+    transition: color 0.3s ease-in-out;
+}
+a:hover,
+a:focus,
+a:hover span,
+a:focus span {
+    color: #d932a0;
+}
+a:hover svg path,
+a:focus svg path {
+    fill: #d932a0;
+}
+p {
+    line-height: 1.6;
+}
+.container {
+    max-width: 800px;
+
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+}
+.table-header {
+    /* background-color: #1e67cd; */
+    background-color: #251884;
+}
+.table-header table {
+    width: 100%;
+}
+.table-header .table-head {
+    width: 100%;
+}
+.header-logo-wrap {
+    text-align: center;
+    /* width: 50%; */
+}
+.table-head td {
+    width: 50%;
+}
+.header-logo-wrap img {
+    max-width: 100%;
+    height: auto;
+}
+.social-header-wrap {
+    float: left;
+    width: 100%;
+}
+.social-header {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.social-header img {
+    height: 16px !important;
+    width: 16px !important;
+}
+.social-header a {
+    margin-left: 30px;
+    color: #fff;
+}
+.intro-message :first-child {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.table-header {
+    border-bottom: 1px solid #ddd;
+}
+.footer-row {
+    /* text-align: center; */
+    /* background-color: #1e67cd; */
+    background-color: #251884;
+
+    color: #fff;
+    padding: 20px;
+}
+.footer-row > * {
+    text-align: center;
+}
+.footer-row a {
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+.footer-row a:hover,
+.footer-row a:focus {
+    color: #da32a1;
+}
+.social-header span {
+    margin-left: 10px;
+}
+.email-text {
+    font-size: 16px;
+}
+/* .date-info .info-head {
+        display: inline-block;
+        width: 120px;
+    } */
+.date-info p {
+    margin-bottom: 10px;
+}
+
+/* .footer-top :first-child {
+        margin-top: 0;
+    }
+    .footer-top :last-child {
+        margin-bottom: 20px;
+    } */
+.email-bottom tr :first-child {
+    padding-left: 0;
+}
+.email-bottom tr td {
+    padding-top: 0;
+}
+.email-link {
+    text-decoration: underline;
+    color: #237af3;
+}
+.email-link:hover {
+    color: #da32a1;
+}
+.footer-row p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff !important;
+}
+.footer-row .footer-lead {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff !important;
+}
+.footer-social-wrap {
+    margin-bottom: 10px;
+}
+.footer-social {
+    display: inline-block;
+    width: 32px !important;
+    height: 32px !important;
+
+    margin-right: 10px;
+}
+.footer-social-wrap :last-child {
+    margin-right: 0;
+}
+
+.footer-social img {
+    width: 32px !important;
+    height: 32px !important;
+}
+.margin-bottom {
+    margin-bottom: 100px;
+}
+.form-check {
+    margin-top: 16px;
+}
+.card-title {
+    margin-bottom: 16px;
+}
+.card-body li {
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+
+
+
+@page {
+    size: A4 portrait;
+    margin: 2cm 3cm;
+}
+html, body {
+    padding:0;
+    margin:0;
+    background-color: #0aa2b5;
+}
+.heading h2{
+    font-size: 10px !important;
+}
+
+
